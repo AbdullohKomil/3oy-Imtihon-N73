@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/global.css" />
+    <style>
+      .loader , .div_loading {
+        z-index: 99999999999;
+      }
+    </style>
   </head>
-  <body>
+  <body class="w-100h-100 body" onload="loadersa()">
+    <div class="div_loading">
+      <div class="loader">Loading...</div>
+    </div>
     <header>
       <nav>
         <div class="container">
@@ -652,3 +660,4 @@
     <script src="./js/index.js"></script>
   </body>
 </html>
+
