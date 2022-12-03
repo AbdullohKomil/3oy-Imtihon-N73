@@ -916,3 +916,12 @@ a {
   transition: all 1s;
   color: #000;
 }
+
+@media screen and (max-width:1045px) {
+  .accordion-left-top {
+    justify-content: start !important;
+  }
+  .accordion_span1 {
+    margin-right: 10px;
+  }
+}
